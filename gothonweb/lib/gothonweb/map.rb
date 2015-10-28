@@ -132,7 +132,8 @@ module Map
     CENTRAL_CORRIDOR.add_paths({
         'shoot!' => GENERIC_DEATH,
         'dodge!' => GENERIC_DEATH,
-        'tell a joke' => LASER_WEAPON_ARMORY
+        'tell a joke' => LASER_WEAPON_ARMORY,
+        "*" => GENERIC_DEATH
     })
 
     START = CENTRAL_CORRIDOR
